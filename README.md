@@ -1,6 +1,6 @@
-# Congruencias cubo de Rubik
+# Trabajo de Profundización
 
-# Título: Las congruencias en el cubo de Rubik: Un estudio profundo
+# LAS CONGRUENCIAS EN EL CUBO DE RUBIK: 
 
 
 El cubo de Rubik es un rompecabezas mecánico tridimensional inventado por el escultor y profesor de arquitectura húngaro Ernő Rubik en 1974. Desde su creación, el cubo de Rubik ha cautivado a millones de personas alrededor del mundo y se ha convertido en un ícono de la cultura popular. Uno de los aspectos más interesantes del cubo de Rubik es la relación que existe entre su estructura y las matemáticas. En este trabajo de profundización, nos enfocaremos en un aspecto particular de este vínculo: las congruencias en el cubo de Rubik.
