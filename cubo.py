@@ -17,6 +17,7 @@ def verificar_validez_configuracion(cubo):
     else:
         return False
 
+# Ejemplo 1 devuelve True
 class CuboRubik:
     def __init__(self):
         self.aristas = list(range(12))
@@ -26,3 +27,12 @@ class CuboRubik:
 
 cubo_resuelto = CuboRubik()
 print(verificar_validez_configuracion(cubo_resuelto))
+
+#Ejemplo 2 devuelve False
+cubo_invalido = CuboRubik()
+# Cambiamos la orientación de la esquina 0
+cubo_invalido.orientaciones_esquinas[0] = 1
+print(verificar_validez_configuracion(cubo_invalido)) 
+
+
+
