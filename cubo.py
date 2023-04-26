@@ -3,7 +3,7 @@ def verificar_validez_configuracion(cubo):
     paridad_aristas = sum([cubo.aristas.index(i) % 2 for i in range(12)]) % 2
     
     # Paridad de las esquinas
-    paridad_esquinas = sum([cubo.esquinas.index(i) % 3 for i in range(8)]) % 3
+    paridad_esquinas = sum([cubo.esquinas.index(i) % 2 for i in range(8)]) % 2
     
     # Suma total de los giros de las aristas
     giros_totales_aristas = sum([cubo.orientaciones_aristas[i] for i in range(12)]) % 2
@@ -16,3 +16,13 @@ def verificar_validez_configuracion(cubo):
         return True
     else:
         return False
+
+class CuboRubik:
+    def __init__(self):
+        self.aristas = list(range(12))
+        self.esquinas = list(range(8))
+        self.orientaciones_aristas = [0] * 12
+        self.orientaciones_esquinas = [0] * 8
+
+cubo_resuelto = CuboRubik()
+print(verificar_validez_configuracion(cubo_resuelto))
